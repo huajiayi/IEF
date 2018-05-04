@@ -21,7 +21,7 @@ main {
 
 .card {
     width: 250px;
-    height: 450px;
+    height: 350px;
     perspective: 800;
     -moz-perspective: 800;
     -ms-perspective: 800;
