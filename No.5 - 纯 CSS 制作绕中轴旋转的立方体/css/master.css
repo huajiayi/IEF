@@ -52,6 +52,12 @@ p {
     -o-transition: linear transform 8s;
 }
 
+.animation {
+    animation: rotate-rect-Y 8s linear;
+    -webkit-animation: rotate-rect-Y 8s linear infinite;
+    animation-play-state: paused;
+}
+
 .rect-transition .rect-box:hover {
     transform: rotateY(-360deg);
     -webkit-transform: rotateY(-360deg);
@@ -61,8 +67,7 @@ p {
 }
 
 .rect-animation .rect-box:hover {
-    animation: rotate-rect-Y 8s linear;
-    -webkit-animation: rotate-rect-Y 8s linear;
+    animation-play-state: running;
 }
 
 @keyframes rotate-rect-Y {
