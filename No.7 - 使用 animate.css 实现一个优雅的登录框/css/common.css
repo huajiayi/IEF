@@ -1,0 +1,13 @@
+.move-up {
+    top: -10px;
+    font-size: .8em;
+}
+
+.hide-line {
+    width: 0;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+}
